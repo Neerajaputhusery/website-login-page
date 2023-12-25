@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+.content {
+display: flex;
+height: 100vh;
+}
+.content-left {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f4e4a0;
+}
+.content-right {
+     flex: 5;
+     background: url(house.jpg);
+     background-position: center;
+     background-size: cover;
+}
+.title {
+    margin-bottom: 50px;
+}
+.login-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.login-input label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.login-input input {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+}
+.login-btn {
+    margin-top: 10px;
+}
+.login-btn button {
+    width: 400px;
+    height: 40px;
+    outline: none;
+    background-color: rgb(150, 239, 16);
+    cursor: pointer;
+    border: none;
+    font-size: 18px
+    ;
+}
+.signup {
+    width: 400px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
